@@ -20,6 +20,7 @@ public class BubbleSort {
                     array[i+1] = temp;
                     swaps++;
                     sorted = false;
+
                 }
                 else {
                     System.out.println("No need to change elements " + i + " and " + (i+1));
